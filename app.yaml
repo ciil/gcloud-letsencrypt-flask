@@ -1,0 +1,17 @@
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /\.well-known/acme-challenge/.*
+  script: letsencrypt.app
+  secure: never
+- url: .*
+  script: main.app
+  secure: always
+
+libraries:
+- name: jinja2
+  version: "2.6"
+- name: markupsafe
+  version: "0.15"
