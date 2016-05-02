@@ -5,7 +5,7 @@ This quick HOWTO is aimed at gcloud users who are just playing around/getting in
 You've set up gcloud on your local machine and cloned the repo with the example flask app.
 
 ## Acknowledgements
-This howto is based almost entirely on Sean Fujiwara's [blog post](http://blog.seafuj.com/lets-encrypt-on-google-app-engine) from November 2015, when, I assume, the Google App Engine did not yet use flask.
+This howto is based almost entirely on Sean Fujiwara's [blog post](http://blog.seafuj.com/lets-encrypt-on-google-app-engine) from November 2015, when, I assume, the Google App Engine did not yet use flask (at least not as the preferred python App Engine tutorial framework).
 
 ## Actual HOWTO
 ### Step 1
