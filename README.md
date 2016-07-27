@@ -43,7 +43,7 @@ The script will then ask for an email address and for all the domains you want t
 ### Step 4
 The script will ask you to set up the challenge-response pairs for each domain individually like so:
 ```
-Make sure your web server displays the following content at                                                                                                                             
+Make sure your web server displays the following content at
 http://www.example.com/.well-known/acme-challenge/[challenge] before continuing:
 [response]
 Content-Type header MUST be set to text/plain.
