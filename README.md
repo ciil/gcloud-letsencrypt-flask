@@ -68,7 +68,7 @@ The certbot script should now tell you congratulations and inform you where your
 ```
 sudo openssl rsa -inform pem -in /etc/letsencrypt/live/www.example.com/privkey.pem -outform pem | less
 ```
-get your public certificate with
+Then get your public certificate with
 ```
 sudo less /etc/letsencrypt/live/www.example.com/fullchain.pem
 ```
