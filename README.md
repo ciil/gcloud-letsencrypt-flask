@@ -75,7 +75,7 @@ sudo less /etc/letsencrypt/live/www.example.com/fullchain.pem
 and upload your key and certificate to app engine (App Engine -> Settings -> SSL Certificates -> Upload a new certificate).
 
 ### Step 7
-Call up your custom domain with https in front (if you used my app.yaml, the app should serve securely by default) and see if everything's running smoothly.
+Call up your custom domain with https in front (if you used my app.yaml, the app should serve securely by default - that means it will automatically forward to a secure connection no matter what) and see if everything's running smoothly.
 
 ## Updating your certificates
 To update your certificates, just follow the above howto again from Step 3. Be sure to keep your system updated.
